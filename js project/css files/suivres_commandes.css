@@ -1,0 +1,80 @@
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f5f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Conteneur principal */
+.commande-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #d5b692;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Champ de recherche */
+#cherche {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #8d6b48;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+#cherche:focus {
+  border-color: #5a3e28;
+  box-shadow: 0 0 5px rgba(90, 62, 40, 0.5);
+}
+
+/* Bouton Rechercher */
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #8d6b48;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5a3e28;
+}
+
+/* Résultats des commandes */
+.commande-result {
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 900px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.commande-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.commande-actions div {
+  padding: 15px;
+  border: 1px solid #d5b692;
+  border-radius: 5px;
+  background-color: #f7f5f2;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.commande-actions div:hover {
+  background-color: #d5b692;
+  transform: scale(1.02);
+}

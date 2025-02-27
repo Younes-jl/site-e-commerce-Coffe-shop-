@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page.css">
+    <script src="page.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="home"> 
+      <div class="nav">
+
+      <il><a href="#h">HOME</a></il>
+      <il><a href="#a">ABOUT US</a></il>
+      <il><a href="#p">PRODUCT</a></il>
+      <il><a href="#g">GALLERY</a></il>
+      <il><a href="#c">CONTACT US</a></il>
+        
+      </div>
+      
+    <h1 class="title" id="h">Coffe Time</h1>
+
+        <p class="desc" >It's coffe time! You can't buy happiness <br> but you can buy coffe and that's pretty close.</p>
+        <h3 class="exp">Start your day with Coffee</h3>
+
+     <a href="commande.html"><button class="buy">Shop Now</button></a>
+
+
+    </div>
+
+    <div class="about">
+        <h2 id="a">About us</h2>
+        <img src="pexels-fotios-photos-1327663.jpg" alt="" width="500px" height="500px">
+        <h3>Our history :</h3>
+        <p> 
+          Bienvenue sur Coffee Time, votre destination pour un café d'exception !
+Découvrez une sélection de cafés premium soigneusement torréfiés pour offrir une expérience gustative unique. Que vous soyez amateur de café doux, corsé ou exotique, nous avons le mélange parfait pour satisfaire vos papilles.<br>
+
+✔ Cafés 100% authentiques : Grains sélectionnés avec soin auprès des meilleurs producteurs du monde.<br>
+✔ Fraîcheur garantie : Torréfaction artisanale pour préserver l’arôme et la qualité de nos cafés.<br>
+✔ Pour tous les goûts : Disponible en grains, moulu ou capsules, adapté à tous vos besoins. <br>
+✔ Livraison rapide : Profitez d’une expérience café sans attendre. Livraison en 48h. <br>
+
+Rejoignez notre communauté de passionnés et laissez-vous séduire par la richesse de notre café. Commandez dès aujourd’hui et redécouvrez le plaisir d’un café parfait, chez vous.
+        </p>
+
+
+      
+    </div>
+
+    <div class="product">
+      <h2 id="p">Our Product</h2>
+      <div class="cat1">
+           <div class="product1">
+              <img src="p1.png" alt="" width="200px" height="200px">
+              <p>product 1</p>
+              <p>25$</p> 
+           </div>
+           <div class="product3">
+              <img src="p2.png" alt="" width="200px" height="200px">
+              <p>product 2</p>
+              <p>55$</p>
+           </div>
+           <div class="product2">
+              <img src="p3.png" alt="" width="200px" height="200px">
+              <p>product 2</p>
+              <p>20$</p>
+           </div>
+      </div>
+      <div class="cat2">
+            <div class="product4">
+              <img src="p4.png" alt="" width="200px" height="200px">
+              <p>product 3</p>
+              <p>70$</p>
+            </div>
+            <div class="product5">
+              <img src="p5.png" alt="" width="200px" height="200px">
+              <p>product 4</p>
+              <p>30$</p>
+            </div>
+            <div class="product6">
+              <img src="p6.png" alt="" width="200px" height="200px">
+              <p>product 6</p>
+              <p>22$</p>
+            </div>
+      </div>
+
+    </div>
+
+    <div class="gallery">
+       <h3 id="g">Coffee Gallery</h3>
+            <div class="gallery1">
+              <div class="p1"><img src="pexels-thepaintedsquare-606545.jpg" alt="" width="250px" height="250px"></div>
+              <div class="p2"><img src="pexels-picturemechaniq-1749303.jpg" alt="" width="250px" height="250px"></div>
+              <div class="p3"><img src="pexels-jayoke-851555.jpg" alt=""  width="250px" height="250px"></div>
+              <div class="p4" ><img src="pexels-ifreestock-585752.jpg" alt=""  width="250px" height="250px"></div>
+            </div>
+            <div class="gallery2">
+              <div class="p5"><img src="pexels-decha-huayyai-386244-1036444.jpg" alt=""  width="250px" height="250px"></div> 
+              <div class="p6"><img src="Morning Bliss_ Perfect Latte Art ☕✨.jpg" alt=""   width="250px" height="250px"></div>
+              <div class="p7"><img src="download.jpg" alt=""   width="200px" height="250px"></div>
+              <div class="p8"><img src="pexels-fotios-photos-1327663.jpg" alt="" width="250px" height="250px"></div>
+            </div>
+            <script>
+              document.querySelectorAll('.gallery img').forEach(img => {
+                img.addEventListener('click', () => {
+                  const modal = document.createElement('div');
+                  modal.style.position = 'fixed';
+                  modal.style.top = '0';
+                  modal.style.left = '0';
+                  modal.style.width = '100%';
+                  modal.style.height = '100%';
+                  modal.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+                  modal.style.display = 'flex';
+                  modal.style.justifyContent = 'center';
+                  modal.style.alignItems = 'center';
+                  modal.style.zIndex = '1000';
+
+                  const modalImg = document.createElement('img');
+                  modalImg.src = img.src;
+                  modalImg.style.maxWidth = '90%';
+                  modalImg.style.maxHeight = '90%';
+
+                  modal.appendChild(modalImg);
+                  document.body.appendChild(modal);
+
+                  modal.addEventListener('click', () => {
+                    document.body.removeChild(modal);
+                  });
+                });
+              });
+            </script>
+
+    <div class="contact_us">
+      <h2 id="c">Contact us</h2>
+      <div class="contact">
+
+        <div class="info">
+          <h2>Coffe Time</h2>
+          <h4>"L'art du café, une tasse à la fois."</h4>
+          <p>Address: 1234 Street Name, City Name, United States</p>
+          <p>Phone: +1234567890</p>
+          <p>Email:"Coffe_Time@gmail.com"</p>
+          
+          
+          
+        
+        
+        
+        </div>
+
+
+
+        <div class="form">
+           <h3 class="last">We're happy to contact you</h3>
+        <form action="">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea><br>
+
+          <button type="submit">Send</button>
+        </form>
+        </div>
+
+
+        <div>
+      
+        <div class="social">
+            <h2>Social Media</h2>
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-snapchat"></i></a>
+        </div>
+      </div>
+      
+
+
+
+
+
+    </div>
+   
+		</body>
+	</html>
+
+    <div class="footer">
+      <p>&copy; 2025 Coffee Time. All rights reserved.</p>
+  </div>
+
+    
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+</body>
+</html>

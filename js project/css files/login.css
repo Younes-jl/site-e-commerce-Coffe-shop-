@@ -1,0 +1,177 @@
+
+body{
+
+   
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-image: none;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+.sign_up
+{
+   text-align: center;
+    border: solid burlywood;
+    border-radius: 10px;
+   background-color: rgba(210, 105, 30, 0.5);
+    margin-top: 120px;
+    margin-left: 470px;
+    width: 350px;
+    height: 400px;
+    box-shadow: 0 20px 35px  rgba(0, 0, 0, 0.5);
+
+
+
+
+    background: #eacda3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.sign_up input
+{
+    padding: 5px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border: solid burlywood;
+    border-radius: 20px;
+}
+.sign_up button
+{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border: solid burlywood;
+    border-radius: 20px;
+    background-color: rgb(142, 88, 44);
+    color: white;
+    transition: 0.4s;
+    
+}
+.sign_up button:hover
+{  
+     text-decoration: whitesmoke;
+    background-color: rgb(142, 88, 44);
+    color: rgb(113, 71, 17);
+    transform: scale(1.05);
+ 
+}
+.footer
+{
+    border: solid none;
+    border-radius: 10px;
+    background-color: rgba(79, 77, 75, 0.5);
+    margin-top: 170px;
+    text-align: center;
+
+  
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1
+{
+    font-family:"lugrasimo",cursive;
+    color: rgb(71, 39, 32);
+    margin-left: 50px;
+    position: fixed;
+    font-size: 50px;
+    top: 3px;
+}
+h2
+{
+    font-family:"lugrasimo",cursive;
+    color: rgb(81, 45, 38);
+    font-size: 20px;
+
+}
+.footer
+{
+    border: solid none;
+    border-radius: 10px;
+    background-color: rgba(79, 77, 75, 0.5);
+    margin-top: 40px;
+    text-align: center;
+
+  
+   
+}
+#l{
+    color: rgb(71, 39, 32);
+    font-family:"lugrasimo",cursive;
+    font-size: 17px;
+}
+#l:hover{
+    color: rgb(247, 246, 246);
+    font-family:"lugrasimo",cursive;
+    font-size: 17px;
+    text-decoration: none;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
