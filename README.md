@@ -1,7 +1,6 @@
 # site-e-commerce-Coffe-shop-
 ☕ Coffee Time - E-commerce pour passionnés de café
 Coffee Time est une plateforme e-commerce optimisée pour la vente de café et d’accessoires, offrant une expérience fluide et sécurisée aux utilisateurs.
-
 🚀 Fonctionnalités
 🔹 Gestion des commandes : Ajout au panier, suivi des achats
 🔹 Paiement sécurisé : Intégration avec [ex : Stripe, PayPal]
